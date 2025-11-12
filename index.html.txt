@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SIR BREE CLASSLINK PORTAL</title>
+
+  <!-- Tailwind for layout + effects -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Times New Roman', serif;
+      background-image: url('https://i.imgur.com/9AaxrER.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      min-height: 100vh;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1400px;
+      margin: auto;
+    }
+
+    .header {
+      background-color: #B0E0E6;
+      color: #483D8B;
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-align: center;
+      padding: 1.5rem;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .quick-links, .class-links {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      width: 100%;
+    }
+
+    .class-links {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+    }
+
+    .link-button {
+      border-radius: 20px;
+      padding: 1.25rem;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: 600;
+      text-decoration: none;
+      color: #483D8B;
+      box-shadow: 5px 5px 10px #483D8B;
+      opacity: 0.9;
+      transition: all 0.3s ease;
+      background-color: #B0E0E6;
+    }
+
+    .link-button:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(72, 61, 139, 0.5);
+      filter: brightness(1.1);
+    }
+
+    /* Quick Links Pastel Colors */
+    .quick-links .link-button.special { background-color: #F1CBFF; }
+    .quick-links .link-button:nth-child(2) { background-color: #FFD1DC; }
+    .quick-links .link-button:nth-child(3) { background-color: #B5EAD7; }
+    .quick-links .link-button:nth-child(4) { background-color: #FFDAC1; }
+    .quick-links .link-button:nth-child(5) { background-color: #C7CEEA; }
+
+    /* Class Links Pastel Colors */
+    .class-links .link-button:nth-child(1) { background-color: #FFD1DC; }
+    .class-links .link-button:nth-child(2) { background-color: #B5EAD7; }
+    .class-links .link-button:nth-child(3) { background-color: #C7CEEA; }
+    .class-links .link-button:nth-child(4) { background-color: #FFDAC1; }
+    .class-links .link-button:nth-child(5) { background-color: #E2F0CB; }
+    .class-links .link-button:nth-child(6) { background-color: #F1CBFF; }
+
+    .image-container {
+      background: white;
+      border-radius: 20px;
+      padding: 1rem;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+      max-width: 350px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .image-container img {
+      width: 100%;
+      border-radius: 12px;
+    }
+
+    h2 { margin: 0.5rem 0 0; color: #483D8B; }
+    p { color: #483D8B; font-weight: 500; }
+
+    @media (max-width: 768px) {
+      .header { font-size: 1.8rem; }
+      .link-button { font-size: 1rem; padding: 1rem; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="left-section" style="flex: 1;">
+      <div class="header">SIR BREE CLASSLINK PORTAL</div>
+
+      <div class="quick-links">
+        <a href="https://drive.google.com/drive/folders/1xNzTpPxeRnrhRMuw0MvrBx6S5Ej8NOsP" target="_blank" class="link-button special">MY DRIVE</a>
+        <a href="BED-PORTAL.HTML" target="_blank" class="link-button">BASIC EDUCATION PORTAL</a>
+        <a href="https://my.acn.edu.ph/login" target="_blank" class="link-button">ACN STUDENT PORTAL</a>
+        <a href="https://isimone.acn.edu.ph/login" target="_blank" class="link-button">ACN iSIMONE</a>
+        <a href="https://docs.google.com/spreadsheets/d/1odndtRta0FQmhy96zcAyTIISpkW24Yyy/edit?gid=832256720#gid=832256720" target="_blank" class="link-button">ADVISORY SCHOOL FORMS</a>
+      </div>
+
+      <div class="class-links">
+        <a href="GRADE 10 ST. MATTHEW CLASSLINKS PORTAL.HTML" target="_blank" class="link-button">Grade 10<br>ST. MATTHEW</a>
+        <a href="GRADE 10 ST. JOHN CLASSLINKS PORTAL.HTML" target="_blank" class="link-button">Grade 10<br>ST. JOHN</a>
+        <a href="GRADE 9 ST. LUKE CLASSLINKS PORTAL.HTML" target="_blank" class="link-button">Grade 9<br>ST. LUKE</a>
+        <a href="GRADE 8 OLHR CLASSLINKS PORTAL.HTML" target="_blank" class="link-button">Grade 8<br>OLHR</a>
+        <a href="GRADE 8 OLIC CLASSLINKS PORTAL.HTML" target="_blank" class="link-button">Grade 8<br>OLIC</a>
+        <a href="https://drive.google.com/drive/u/0/folders/1fXrrsgusd8ksE0wKGgzkYPVMRVn17L5d" target="_blank" class="link-button">PAASCU<br>Results</a>
+      </div>
+    </div>
+
+    <div class="right-section">
+      <div class="image-container">
+        <img src="https://i.imgur.com/Fg8npNq.jpg" alt="Class Portal Image">
+        <h2>BREZEL B. HUEZO, LPT.</h2>
+        <p>Grade 10 St. Matthew Class Adviser<br>S.Y. 2025 - 2026</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
