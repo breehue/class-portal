@@ -1,51 +1,46 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SIR BREE CLASSLINK PORTAL</title>
-
-  <!-- Tailwind for layout + effects -->
-  <script src="https://cdn.tailwindcss.com"></script>
-
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Times New Roman', serif;
-      background-image: url('https://i.imgur.com/9AaxrER.jpg');
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed;
-      min-height: 100vh;
-    }
-
-    .container {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 2rem;
-      padding: 2rem;
-      max-width: 1400px;
-      margin: auto;
-    }
-
-    .header {
-      background-color: #B0E0E6;
-      color: #483D8B;
-      font-size: 2.5rem;
-      font-weight: bold;
-      text-align: center;
-      padding: 1.5rem;
-      border-radius: 15px;
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    }
-
-    .quick-links, .class-links {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-      width: 100%;
-    }
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SIR BREE CLASSLINK PORTAL</title>
+<!-- Tailwind for layout + effects -->
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body {
+margin: 0;
+padding: 0;
+font-family: 'Times New Roman', serif;
+background-image: url('https://i.imgur.com/9AaxrER.jpg');
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+min-height: 100vh;
+}
+.container {
+display: flex;
+flex-wrap: wrap;
+gap: 2rem;
+padding: 2rem;
+max-width: 1400px;
+margin: auto;
+}
+.header {
+background-color: #B0E0E6;
+color: #483D8B;
+font-size: 2.5rem;
+font-weight: bold;
+text-align: center;
+padding: 1.5rem;
+border-radius: 15px;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.quick-links, .class-links {
+display: flex;
+flex-direction: column;
+gap: 1rem;
+width: 100%;
+}
 
     .class-links {
       display: grid;
@@ -146,3 +141,4 @@
   </div>
 </body>
 </html>
+
